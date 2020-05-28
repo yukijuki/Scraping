@@ -28,7 +28,7 @@ for i in range(3000, 5999):
                         if data != '':
                             output.append(data)
                             break
-        csv_writer.writerow([output[0], output[1], output[2], output[3], output[4], output[5], output[6], output[7], output[8], output[9], output[10], output[11], output[12], output[13], output[14], output[15], output[16], output[17], output[18], output[19], output[20], output[21], output[22], output[23], output[24], output[25], output[26], output[27], output[28]])
+        csv_writer.writerow([i, output[0], output[1], output[2], output[3], output[4], output[5], output[6], output[7], output[8], output[9], output[10], output[11], output[12], output[13], output[14], output[15], output[16], output[17], output[18], output[19], output[20], output[21], output[22], output[23], output[24], output[25], output[26], output[27], output[28]])
     
     except Exception as identifier:
         pass
